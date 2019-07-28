@@ -1,441 +1,464 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>FDN</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
-    <link rel="stylesheet" type="text/css" href="css/main.min.css">
-  </head>
-  <body>
-    <nav class="main-menu" id="main-menu">
-      <h3 class="main-menu__title">NAVIGATION</h3><a class="main-menu__close" href="#" id="main-menu__close"></a>
-      <ul class="main-menu-list">
-        <li class="main-menu-list__item"><a class="main-menu-list__link" href="#page-header">Home</a></li>
-        <li class="main-menu-list__item"><a class="main-menu-list__link accordion" href="#page-services">Services</a>
-          <ul class="submenu accordion-panel">
-            <li class="submenu__item"><a class="submenu__link main-menu-list__link" href="#page-services">General contracting</a></li>
-            <li class="menu-services__item"><a class="submenu__link main-menu-list__link" href="#page-services">Project design and engineering</a></li>
-            <li class="menu-services__item"><a class="submenu__link main-menu-list__link" href="#page-services">Capital improvements</a></li>
-          </ul>
-        </li>
-        <li class="main-menu-list__item"><a class="main-menu-list__link accordion" href="#page-portfolio">Our Works</a>
-          <ul class="submenu accordion-panel">
-            <li class="menu-works__item"><a class="submenu__link main-menu-list__link" href="#">Lorem ipsum dolor sit</a></li>
-            <li class="menu-works__item"><a class="submenu__link main-menu-list__link" href="#">Lorem ipsum dolor sit</a></li>
-          </ul>
-        </li>
-        <li class="main-menu-list__item"><a class="main-menu-list__link accordion" href="#page-news">News &amp; events</a>
-          <ul class="submenu accordion-panel">
-            <li class="menu-news__item"><a class="submenu__link main-menu-list__link" href="#">Lorem ipsum dolor sit</a></li>
-            <li class="menu-works__item"><a class="submenu__link main-menu-list__link" href="#">Lorem ipsum dolor sit</a></li>
-          </ul>
-        </li>
-        <li class="main-menu-list__item"><a class="main-menu-list__link" href="#page-work-with-us">Work with us</a></li>
-        <li class="main-menu-list__item"><a class="main-menu-list__link" href="#">F.A.Q.</a></li>
-        <li class="main-menu-list__item"><a class="main-menu-list__link" href="#page-contact-us">Contact us</a></li>
-        <li class="main-menu-list__item"><a class="main-menu-list__link accordion" href="#">Shop</a>
-          <ul class="submenu accordion-panel">
-            <li class="menu-shop__item"><a class="submenu__link main-menu-list__link" href="#">Lorem ipsum dolor sit</a></li>
-            <li class="menu-works__item"><a class="submenu__link main-menu-list__link" href="#">Lorem ipsum dolor sit</a></li>
-          </ul>
-        </li>
-      </ul>
-      <div class="contacts">
-        <div class="contacts__map-marker fas fa-map-marker"></div>
-        <div class="contacts__address">Stlemixthemes USA, Callifornia 20, Firs Avenue, 2365 Callifornia</div>
-        <div class="contacts__phone">+1 888 111 68 68</div>
-        <div class="contacts__work-hours">6:00 - 18:00 sunday closed</div><a class="contacts__email" href="mailto:info@stylemixthemes.com">info@stylemixthemes.com</a>
-      </div>
-      <form class="menu-search">
-        <input class="menu-search__input-text" type="text" placeholder="Search"><span class="menu-search__submit-wrapper fas fa-search">
-          <input class="menu-search__submit" type="submit" value="&gt;"></span>
-      </form>
-    </nav>
-    <header class="page-header" id="page-header">
-      <div class="logo">
-        <div class="logo-img"></div>
-        <div class="logo-text">FDN</div>
-      </div>
-      <div class="short-menu"><a class="fab fa-facebook-f short-menu__link" href="#"></a><a class="fab fa-twitter short-menu__link" href="#"></a><a class="short-menu__link" href="#" id="cart-icon"><span class="cart"><span class="cart__amount">99</span></span></a><a class="short-menu__link" href="javascript:void(0);" id="main-menu-icon"><span class="menu-icon"></span></a></div>
-      <div class="cart-menu" id="cart-menu">
-        <ul class="cart-menu__list">
-          <li class="cart-menu__item"><img class="cart-menu__img" src="img/cart-item.png" alt="Drill for Real">
-            <div class="cart-menu__desc"><a class="cart-menu__link" href="#">Drill for Real</a>
-              <div class="cart-menu__amount">1&times; $59.00</div>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>FDN</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Cache-Control" content="public">
+        <meta http-equiv="x-dns-prefetch-control" content="on">
+        <meta name="description" content="FDN">
+        <meta name="keywords" content="fdn">
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
+        <link rel="stylesheet" type="text/css" href="css/main.min.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/img/favicons/site.webmanifest">
+        <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#2197d7">
+        <link rel="shortcut icon" href="/img/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#ffc40d">
+        <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
+        <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffe300">
+    </head>
+    <body>
+        <nav class="main-menu" id="main-menu">
+            <h3 class="main-menu__title">NAVIGATION</h3><a class="main-menu__close" href="#" id="main-menu__close">Close</a>
+            <ul class="main-menu-list">
+                <li class="main-menu-list__item"><a class="main-menu-list__link" href="#page-header">Home</a></li>
+                <li class="main-menu-list__item"><a class="main-menu-list__link accordion" href="#page-services">Services</a>
+                    <ul class="submenu accordion-panel">
+                        <li class="submenu__item"><a class="submenu__link main-menu-list__link" href="#page-services">General contracting</a></li>
+                        <li class="menu-services__item"><a class="submenu__link main-menu-list__link" href="#page-services">Project design and engineering</a></li>
+                        <li class="menu-services__item"><a class="submenu__link main-menu-list__link" href="#page-services">Capital improvements</a></li>
+                    </ul>
+                </li>
+                <li class="main-menu-list__item"><a class="main-menu-list__link accordion" href="#page-portfolio">Our Works</a>
+                    <ul class="submenu accordion-panel">
+                        <li class="menu-works__item"><a class="submenu__link main-menu-list__link" href="#">Lorem ipsum dolor sit</a></li>
+                        <li class="menu-works__item"><a class="submenu__link main-menu-list__link" href="#">Lorem ipsum dolor sit</a></li>
+                    </ul>
+                </li>
+                <li class="main-menu-list__item"><a class="main-menu-list__link accordion" href="#page-news">News &amp; events</a>
+                    <ul class="submenu accordion-panel">
+                        <li class="menu-news__item"><a class="submenu__link main-menu-list__link" href="#">Lorem ipsum dolor sit</a></li>
+                        <li class="menu-works__item"><a class="submenu__link main-menu-list__link" href="#">Lorem ipsum dolor sit</a></li>
+                    </ul>
+                </li>
+                <li class="main-menu-list__item"><a class="main-menu-list__link" href="#page-work-with-us">Work with us</a></li>
+                <li class="main-menu-list__item"><a class="main-menu-list__link" href="#">F.A.Q.</a></li>
+                <li class="main-menu-list__item"><a class="main-menu-list__link" href="#page-contact-us">Contact us</a></li>
+                <li class="main-menu-list__item"><a class="main-menu-list__link accordion" href="#">Shop</a>
+                    <ul class="submenu accordion-panel">
+                        <li class="menu-shop__item"><a class="submenu__link main-menu-list__link" href="#">Lorem ipsum dolor sit</a></li>
+                        <li class="menu-works__item"><a class="submenu__link main-menu-list__link" href="#">Lorem ipsum dolor sit</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="contacts">
+                <div class="contacts__map-marker fas fa-map-marker"></div>
+                <div class="contacts__address">Stlemixthemes USA, Callifornia 20, Firs Avenue, 2365 Callifornia</div>
+                <div class="contacts__phone">+1 888 111 68 68</div>
+                <div class="contacts__work-hours">6:00 - 18:00 sunday closed</div><a class="contacts__email" href="mailto:info@stylemixthemes.com">info@stylemixthemes.com</a>
             </div>
-          </li>
-          <li class="cart-menu__item"><img class="cart-menu__img" src="img/cart-item.png" alt="Drill Mrill Brill">
-            <div class="cart-menu__desc"><a class="cart-menu__link" href="#">Drill Mrill Brill</a>
-              <div class="cart-menu__amount">1&times; $29.00</div>
+            <form class="menu-search">
+                <label class="menu-search__input-label">Search
+                    <input class="menu-search__input-text" type="text" placeholder="Search">
+                </label><span class="menu-search__submit-wrapper fas fa-search">
+                    <input class="menu-search__submit" type="submit" value="&gt;"></span>
+            </form>
+        </nav>
+        <header class="page-header" id="page-header">
+            <div class="logo">
+                <div class="logo-img"></div>
+                <div class="logo-text">FDN</div>
             </div>
-          </li>
-        </ul>
-        <div class="cart-menu__sum"><span class="cart-menu__subtotal-name">Subtotal:</span><span class="cart-menu__subtotal-sum"> $259.00</span></div>
-        <div class="cart-menu__action">
-          <button class="cart-menu__checkout">CHECKOUT</button><a class="cart-menu__cart" href="#">VIEW CART</a>
-        </div>
-      </div>
-    </header>
-    <main>
-      <section class="page-intro" id="page-intro">
-        <div class="page-intro__carousel">
-          <div class="page-intro__slide page-intro__slide_1st">
-            <div class="intro-text">
-              <h2 class="intro-text__title">BUILDING THE WORLD AROUND US</h2>
-              <p class="intro-text__text">Still other clients have reserved for capital improvement projects and will work directly with our Design and Engineering team.</p><a class="intro-text__link" href="#">READ MORE</a>
+            <div class="short-menu"><a class="fab fa-facebook-f short-menu__link" href="#">Facebook</a><a class="fab fa-twitter short-menu__link" href="#">Twitter</a><a class="short-menu__link" href="#" id="cart-icon">Cart<span class="cart"><span class="cart__amount">99</span></span></a><a class="short-menu__link" href="javascript:void(0);" id="main-menu-icon">Menu<span class="menu-icon"></span></a></div>
+            <div class="cart-menu" id="cart-menu">
+                <ul class="cart-menu__list">
+                    <li class="cart-menu__item"><img class="cart-menu__img" src="img/cart-item.png" alt="Drill for Real">
+                        <div class="cart-menu__desc"><a class="cart-menu__link" href="#">Drill for Real</a>
+                            <div class="cart-menu__amount">1&times; $59.00</div>
+                        </div>
+                    </li>
+                    <li class="cart-menu__item"><img class="cart-menu__img" src="img/cart-item.png" alt="Drill Mrill Brill">
+                        <div class="cart-menu__desc"><a class="cart-menu__link" href="#">Drill Mrill Brill</a>
+                            <div class="cart-menu__amount">1&times; $29.00</div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="cart-menu__sum"><span class="cart-menu__subtotal-name">Subtotal:</span><span class="cart-menu__subtotal-sum"> $259.00</span></div>
+                <div class="cart-menu__action">
+                    <button class="cart-menu__checkout">CHECKOUT</button><a class="cart-menu__cart" href="#">VIEW CART</a>
+                </div>
             </div>
-            <div class="intro-video">
-              <video class="intro-video__video" preload="none">
-                <source src="" type="">Your browser does not support the video tag.<a href="">Download</a>the video instead.
-              </video>
+        </header>
+        <main>
+            <section class="page-intro" id="page-intro">
+                <div class="page-intro__carousel">
+                    <div class="page-intro__slide page-intro__slide_1st">
+                        <div class="intro-text">
+                            <h2 class="intro-text__title">BUILDING THE WORLD AROUND US</h2>
+                            <p class="intro-text__text">Still other clients have reserved for capital improvement projects and will work directly with our Design and Engineering team.</p><a class="intro-text__link" href="#">READ MORE</a>
+                        </div>
+                        <div class="intro-video">
+                            <video class="intro-video__video" preload="none">
+                                <source src="" type="">Your browser does not support the video tag.<a href="">Download</a>the video instead.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="page-intro__slide page-intro__slide_2nd">
+                        <div class="intro-text">
+                            <h2 class="intro-text__title">Lorem ipsum dolor sit amet</h2>
+                            <p class="intro-text__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam saepe sapiente inventore praesentium veniam quam, maiores cum pariatur provident.</p><a class="intro-text__link" href="#">READ MORE</a>
+                        </div>
+                        <div class="intro-video">
+                            <video class="intro-video__video" preload="none">
+                                <source src="" type="">Your browser does not support the video tag.<a href="">Download</a>the video instead.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="page-intro__slide page-intro__slide_3d">
+                        <div class="intro-text">
+                            <h2 class="intro-text__title">Lorem ipsum dolor sit amet</h2>
+                            <p class="intro-text__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam saepe sapiente inventore praesentium veniam quam, maiores cum pariatur provident.</p><a class="intro-text__link" href="#">READ MORE</a>
+                        </div>
+                        <div class="intro-video">
+                            <video class="intro-video__video" preload="none">
+                                <source src="" type="">Your browser does not support the video tag.<a href="">Download</a>the video instead.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-intro__controls">
+                    <div class="carousel-controls">
+                        <div class="carousel-numbers"><span class="carousel-numbers__current-number">01</span><span class="carousel-numbers__total-number">/01</span></div>
+                    </div>
+                </div>
+            </section>
+            <section class="page-services" id="page-services">
+                <div class="services-desc">
+                    <h2 class="services-desc__title">OUR SERVICES</h2>
+                    <p class="services-desc__text">Our mission is to provide the highest level of service for our client-partners from concept through construction.</p>
+                </div>
+                <div class="services-carousel">
+                    <div class="services-carousel__slide">
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="General contracting">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">General contracting</h3>
+                                <p class="services-card__text">This allows the Design and Engineering team to originate drawings, specifications, structural calculations, details and scopes of work that deliver exactly what the client had intended to achieve.</p>
+                            </div>
+                        </div>
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Capital improvements">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Capital improvements</h3>
+                                <p class="services-card__text">This results in scope creep and slippage of the schedule that ultimately result in additional costs to the owner.</p>
+                            </div>
+                        </div>
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Project design and engineering">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Project design and engineering</h3>
+                                <p class="services-card__text">Through Stage-Gate, Design and Engineering methodology, DMCS ensure client-partners realize clearly defined project objective to achieve intended results.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-carousel__slide">
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="General contracting">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Lorem ipsum</h3>
+                                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita labore, facilis nam id illo vero, corporis accusantium, fuga temporibus qui aliquam eaque dolore cumque, natus! Libero, quisquam, provident.</p>
+                            </div>
+                        </div>
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Capital improvements">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Dolor sit</h3>
+                                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates adipisci libero, corporis ad. Sunt error optio molestias numquam, perspiciatis?</p>
+                            </div>
+                        </div>
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Project design and engineering">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Amet consectetur</h3>
+                                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto tempore incidunt, praesentium quos laborum consequatur voluptatem maxime vero dolorem impedit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-carousel__slide">
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="General contracting">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Lorem ipsum</h3>
+                                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita labore, facilis nam id illo vero, corporis accusantium, fuga temporibus qui aliquam eaque dolore cumque, natus! Libero, quisquam, provident.</p>
+                            </div>
+                        </div>
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Capital improvements">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Dolor sit</h3>
+                                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates adipisci libero, corporis ad. Sunt error optio molestias numquam, perspiciatis?</p>
+                            </div>
+                        </div>
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Project design and engineering">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Amet consectetur</h3>
+                                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto tempore incidunt, praesentium quos laborum consequatur voluptatem maxime vero dolorem impedit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-carousel__slide">
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="General contracting">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Lorem ipsum</h3>
+                                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita labore, facilis nam id illo vero, corporis accusantium, fuga temporibus qui aliquam eaque dolore cumque, natus! Libero, quisquam, provident.</p>
+                            </div>
+                        </div>
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Capital improvements">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Dolor sit</h3>
+                                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates adipisci libero, corporis ad. Sunt error optio molestias numquam, perspiciatis?</p>
+                            </div>
+                        </div>
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Project design and engineering">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Amet consectetur</h3>
+                                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto tempore incidunt, praesentium quos laborum consequatur voluptatem maxime vero dolorem impedit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-carousel__slide">
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="General contracting">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Lorem ipsum</h3>
+                                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita labore, facilis nam id illo vero, corporis accusantium, fuga temporibus qui aliquam eaque dolore cumque, natus! Libero, quisquam, provident.</p>
+                            </div>
+                        </div>
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Capital improvements">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Dolor sit</h3>
+                                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates adipisci libero, corporis ad. Sunt error optio molestias numquam, perspiciatis?</p>
+                            </div>
+                        </div>
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Project design and engineering">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Amet consectetur</h3>
+                                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto tempore incidunt, praesentium quos laborum consequatur voluptatem maxime vero dolorem impedit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-carousel__slide">
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="General contracting">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Lorem ipsum</h3>
+                                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita labore, facilis nam id illo vero, corporis accusantium, fuga temporibus qui aliquam eaque dolore cumque, natus! Libero, quisquam, provident.</p>
+                            </div>
+                        </div>
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Capital improvements">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Dolor sit</h3>
+                                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates adipisci libero, corporis ad. Sunt error optio molestias numquam, perspiciatis?</p>
+                            </div>
+                        </div>
+                        <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Project design and engineering">
+                            <div class="services-card__desc">
+                                <h3 class="services-card__title">Amet consectetur</h3>
+                                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto tempore incidunt, praesentium quos laborum consequatur voluptatem maxime vero dolorem impedit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-controls">
+                    <div class="carousel-controls">
+                        <div class="carousel-numbers"><span class="carousel-numbers__current-number">01</span><span class="carousel-numbers__total-number">/01</span></div>
+                    </div>
+                </div>
+            </section>
+            <section class="page-price-list" id="page-price-list"><a class="page-price-list__link" href="#">DOWNLOAD PRICE</a></section>
+            <section class="page-contact-us" id="page-contact-us"><a class="page-contact-us__link" href="#">CONTACT US</a></section>
+            <section class="page-search" id="page-search">
+                <form class="page-search__form">
+                    <label class="page-search__input-label">Search
+                        <input class="page-search__input-text" type="text" placeholder="What are you looking for?">
+                    </label><span class="page-search__submit-wrapper fas fa-search">
+                        <input class="page-search__submit" type="submit" value="Submit"></span>
+                </form>
+            </section>
+            <section class="page-review" id="page-review">
+                <div class="review-card"><img class="review-card__img" src="img/review.png" alt="Martin H. Jhonsons">
+                    <h4 class="review-card__title">Martin H. Jhonsons</h4>
+                    <div class="review-card__rating"><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_empty"></span></div>
+                    <p class="review-card__text">Together, we'll couple our knowledge, expertise, and innovative capabilities with your astute knowledge of your business—to maximize and optimize results. This is all accomplished in a number of ways.</p>
+                </div>
+                <div class="review-card review-card__marked"><img class="review-card__img" src="img/review.png" alt="Tony SH. Schults">
+                    <h4 class="review-card__title">Tony SH. Schults</h4>
+                    <div class="review-card__rating"><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span></div>
+                    <p class="review-card__text"> When selecting DMCS as the design-build team, clients benefit in terms of efficiency and continuity that translate into cost savings and optimized schedules. Contact us today and see how DMCS can best serve you from concept-through-construction.</p>
+                </div>
+                <div class="review-card"><img class="review-card__img" src="img/review.png" alt="David Mc. Adams">
+                    <h4 class="review-card__title">David Mc. Adams</h4>
+                    <div class="review-card__rating"><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_empty"></span></div>
+                    <p class="review-card__text">In most urban areas, construction has already built existing structures, many having been standing for decades.</p>
+                </div>
+            </section>
+            <section class="page-news" id="page-news">
+                <h2 class="page-news__title">NEWS</h2>
+                <div class="news-carousel">
+                    <div class="news-slide">
+                        <div class="news-slide__date">12 February, 2018</div>
+                        <h3 class="news-slide__heading"><a class="news-slide__news-link" href="#">Project Design and Engineering Services</a></h3><a class="news-slide__comments" href="#">23 comments</a>
+                    </div>
+                    <div class="news-slide">
+                        <div class="news-slide__date">25 May, 2018</div>
+                        <h3 class="news-slide__heading"><a class="news-slide__news-link" href="#"> Lorem Ipsum Dolor Sit Amet</a></h3><a class="news-slide__comments" href="#">8 comments</a>
+                    </div>
+                    <div class="news-slide">
+                        <div class="news-slide__date">11 June, 2018</div>
+                        <h3 class="news-slide__heading"><a class="news-slide__news-link" href="#"> Lorem Ipsum Dolor Sit Amet</a></h3><a class="news-slide__comments" href="#">5 comments</a>
+                    </div>
+                </div>
+            </section>
+            <section class="page-about" id="page-about">
+                <h2 class="page-about__title">YOUR BUILDING IS IN GOOD HANDS</h2>
+                <p class="page-about__text">Our mission is to provide the highest level of service for our client-partners from concept through construction.</p><a class="page-about__link" href="#">ABOUT COMPANY</a>
+            </section>
+            <section class="page-stat" id="page-stat">
+                <div class="stat-card stat-card_expert">
+                    <div class="stat-card__img stat-card__img_expert"></div>
+                    <div class="stat-card__number">55 000</div>
+                    <div class="stat-card__desc">Expert Witness</div>
+                </div>
+                <div class="stat-card stat-card_construction">
+                    <div class="stat-card__img stat-card__img_construction"></div>
+                    <div class="stat-card__number">124 600</div>
+                    <div class="stat-card__desc">Construction</div>
+                </div>
+                <div class="stat-card stat-card_managment">
+                    <div class="stat-card__img stat-card__img_managment"></div>
+                    <div class="stat-card__number">78 150</div>
+                    <div class="stat-card__desc">Project Managments</div>
+                </div>
+                <div class="stat-card stat-card_procurement">
+                    <div class="stat-card__img stat-card__img_procurement"></div>
+                    <div class="stat-card__number">18 000</div>
+                    <div class="stat-card__desc">Procurement</div>
+                </div>
+            </section>
+            <section class="page-portfolio" id="page-portfolio">
+                <div class="page-portfolio__carousel">
+                    <div class="portfolio-slide">
+                        <div class="portfolio-slide__caption">
+                            <h2 class="portfolio-slide__title">Contemporary Villa</h2>
+                            <div class="portfolio-slide__desc">
+                                <p class="portfolio-slide__p">Diversity is a buzzword often heard by brand managers, business tycoons, politicians, and more; but it's much more than that. To us at DM Construction, diversity is the name of the game.</p>
+                                <p class="portfolio-slide__p">We offer a diverse set of skills to all clients in all fields, but also offer a diverse group of individuals who are able to deliver those skills. From Construction Managers and Project Managers, to licensed Architects and Engineers, Designers, Business Development gurus, Construction Superintendents and Construction Project Engineers, DM Construction has a strong team that is as diverse as they are skilled.</p>
+                            </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
+                        </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Contemporary Villa">
+                    </div>
+                    <div class="portfolio-slide">
+                        <div class="portfolio-slide__caption">
+                            <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
+                            <div class="portfolio-slide__desc">
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
+                            </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
+                        </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
+                    </div>
+                    <div class="portfolio-slide">
+                        <div class="portfolio-slide__caption">
+                            <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
+                            <div class="portfolio-slide__desc">
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
+                            </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
+                        </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
+                    </div>
+                    <div class="portfolio-slide">
+                        <div class="portfolio-slide__caption">
+                            <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
+                            <div class="portfolio-slide__desc">
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
+                            </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
+                        </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
+                    </div>
+                    <div class="portfolio-slide">
+                        <div class="portfolio-slide__caption">
+                            <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
+                            <div class="portfolio-slide__desc">
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
+                            </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
+                        </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
+                    </div>
+                    <div class="portfolio-slide">
+                        <div class="portfolio-slide__caption">
+                            <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
+                            <div class="portfolio-slide__desc">
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
+                            </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
+                        </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
+                    </div>
+                    <div class="portfolio-slide">
+                        <div class="portfolio-slide__caption">
+                            <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
+                            <div class="portfolio-slide__desc">
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
+                            </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
+                        </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
+                    </div>
+                    <div class="portfolio-slide">
+                        <div class="portfolio-slide__caption">
+                            <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
+                            <div class="portfolio-slide__desc">
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
+                            </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
+                        </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
+                    </div>
+                    <div class="portfolio-slide">
+                        <div class="portfolio-slide__caption">
+                            <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
+                            <div class="portfolio-slide__desc">
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
+                                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
+                            </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
+                        </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
+                    </div>
+                </div>
+                <div class="page-portfolio__controls">
+                    <div class="carousel-controls">
+                        <div class="carousel-numbers"><span class="carousel-numbers__current-number">01</span><span class="carousel-numbers__total-number">/01</span></div>
+                    </div>
+                </div>
+            </section>
+            <section class="page-work-with-us" id="page-work-with-us"><a class="page-work-with-us__link" href="#"><span class="page-work-with-us__image"></span><span class="page-work-with-us__desc">WORK WITH US</span></a></section>
+            <section class="page-subscribe" id="page-subscribe">
+                <h2 class="page-subscribe__title">SUBSCRIBE</h2>
+                <form class="page-subscribe__form">
+                    <label class="page-subscribe__label">Subscribe
+                        <input class="page-subscribe__field" type="email" placeholder="Email">
+                    </label>
+                    <input class="page-subscribe__submit" type="submit" value="SIGN UP">
+                </form>
+            </section>
+        </main>
+        <footer class="page-footer" id="page-footer">
+            <ul class="page-footer__list">
+                <li class="page-footer__item"><a class="page-footer__link" href="#">Services</a></li>
+                <li class="page-footer__item"><a class="page-footer__link" href="#">Our Works</a></li>
+                <li class="page-footer__item"><a class="page-footer__link" href="#">News &amp; events</a></li>
+                <li class="page-footer__item"><a class="page-footer__link" href="#">Work with us</a></li>
+                <li class="page-footer__item"><a class="page-footer__link" href="#">F.A.Q</a></li>
+                <li class="page-footer__item"><a class="page-footer__link" href="#">Contact us</a></li>
+                <li class="page-footer__item"><a class="page-footer__link" href="#">Shop</a></li>
+            </ul>
+            <div class="page-footer-copy">
+                2019 &copy; Copyright - Foundation theme by
+                <a class="page-footer-copy__link" href="#">Stylemixthemes</a>
             </div>
-          </div>
-          <div class="page-intro__slide page-intro__slide_2nd">
-            <div class="intro-text">
-              <h2 class="intro-text__title">Lorem ipsum dolor sit amet</h2>
-              <p class="intro-text__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam saepe sapiente inventore praesentium veniam quam, maiores cum pariatur provident.</p><a class="intro-text__link" href="#">READ MORE</a>
-            </div>
-            <div class="intro-video">
-              <video class="intro-video__video" preload="none">
-                <source src="" type="">Your browser does not support the video tag.<a href="">Download</a>the video instead.
-              </video>
-            </div>
-          </div>
-          <div class="page-intro__slide page-intro__slide_3d">
-            <div class="intro-text">
-              <h2 class="intro-text__title">Lorem ipsum dolor sit amet</h2>
-              <p class="intro-text__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam saepe sapiente inventore praesentium veniam quam, maiores cum pariatur provident.</p><a class="intro-text__link" href="#">READ MORE</a>
-            </div>
-            <div class="intro-video">
-              <video class="intro-video__video" preload="none">
-                <source src="" type="">Your browser does not support the video tag.<a href="">Download</a>the video instead.
-              </video>
-            </div>
-          </div>
-        </div>
-        <div class="page-intro__controls">
-          <div class="carousel-controls">
-            <div class="carousel-numbers"><span class="carousel-numbers__current-number">01</span><span class="carousel-numbers__total-number">/01</span></div>
-          </div>
-        </div>
-      </section>
-      <section class="page-services" id="page-services">
-        <div class="services-desc">
-          <h2 class="services-desc__title">OUR SERVICES</h2>
-          <p class="services-desc__text">Our mission is to provide the highest level of service for our client-partners from concept through construction.</p>
-        </div>
-        <div class="services-carousel">
-          <div class="services-carousel__slide">
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="General contracting">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">General contracting</h3>
-                <p class="services-card__text">This allows the Design and Engineering team to originate drawings, specifications, structural calculations, details and scopes of work that deliver exactly what the client had intended to achieve.</p>
-              </div>
-            </div>
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Capital improvements">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Capital improvements</h3>
-                <p class="services-card__text">This results in scope creep and slippage of the schedule that ultimately result in additional costs to the owner.</p>
-              </div>
-            </div>
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Project design and engineering">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Project design and engineering</h3>
-                <p class="services-card__text">Through Stage-Gate, Design and Engineering methodology, DMCS ensure client-partners realize clearly defined project objective to achieve intended results.</p>
-              </div>
-            </div>
-          </div>
-          <div class="services-carousel__slide">
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="General contracting">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Lorem ipsum</h3>
-                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita labore, facilis nam id illo vero, corporis accusantium, fuga temporibus qui aliquam eaque dolore cumque, natus! Libero, quisquam, provident.</p>
-              </div>
-            </div>
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Capital improvements">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Dolor sit</h3>
-                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates adipisci libero, corporis ad. Sunt error optio molestias numquam, perspiciatis?</p>
-              </div>
-            </div>
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Project design and engineering">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Amet consectetur</h3>
-                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto tempore incidunt, praesentium quos laborum consequatur voluptatem maxime vero dolorem impedit.</p>
-              </div>
-            </div>
-          </div>
-          <div class="services-carousel__slide">
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="General contracting">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Lorem ipsum</h3>
-                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita labore, facilis nam id illo vero, corporis accusantium, fuga temporibus qui aliquam eaque dolore cumque, natus! Libero, quisquam, provident.</p>
-              </div>
-            </div>
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Capital improvements">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Dolor sit</h3>
-                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates adipisci libero, corporis ad. Sunt error optio molestias numquam, perspiciatis?</p>
-              </div>
-            </div>
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Project design and engineering">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Amet consectetur</h3>
-                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto tempore incidunt, praesentium quos laborum consequatur voluptatem maxime vero dolorem impedit.</p>
-              </div>
-            </div>
-          </div>
-          <div class="services-carousel__slide">
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="General contracting">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Lorem ipsum</h3>
-                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita labore, facilis nam id illo vero, corporis accusantium, fuga temporibus qui aliquam eaque dolore cumque, natus! Libero, quisquam, provident.</p>
-              </div>
-            </div>
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Capital improvements">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Dolor sit</h3>
-                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates adipisci libero, corporis ad. Sunt error optio molestias numquam, perspiciatis?</p>
-              </div>
-            </div>
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Project design and engineering">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Amet consectetur</h3>
-                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto tempore incidunt, praesentium quos laborum consequatur voluptatem maxime vero dolorem impedit.</p>
-              </div>
-            </div>
-          </div>
-          <div class="services-carousel__slide">
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="General contracting">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Lorem ipsum</h3>
-                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita labore, facilis nam id illo vero, corporis accusantium, fuga temporibus qui aliquam eaque dolore cumque, natus! Libero, quisquam, provident.</p>
-              </div>
-            </div>
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Capital improvements">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Dolor sit</h3>
-                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates adipisci libero, corporis ad. Sunt error optio molestias numquam, perspiciatis?</p>
-              </div>
-            </div>
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Project design and engineering">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Amet consectetur</h3>
-                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto tempore incidunt, praesentium quos laborum consequatur voluptatem maxime vero dolorem impedit.</p>
-              </div>
-            </div>
-          </div>
-          <div class="services-carousel__slide">
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="General contracting">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Lorem ipsum</h3>
-                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita labore, facilis nam id illo vero, corporis accusantium, fuga temporibus qui aliquam eaque dolore cumque, natus! Libero, quisquam, provident.</p>
-              </div>
-            </div>
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Capital improvements">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Dolor sit</h3>
-                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates adipisci libero, corporis ad. Sunt error optio molestias numquam, perspiciatis?</p>
-              </div>
-            </div>
-            <div class="services-card"><img class="services-card__img" src="img/services.png" alt="Project design and engineering">
-              <div class="services-card__desc">
-                <h3 class="services-card__title">Amet consectetur</h3>
-                <p class="services-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto tempore incidunt, praesentium quos laborum consequatur voluptatem maxime vero dolorem impedit.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="services-controls">
-          <div class="carousel-controls">
-            <div class="carousel-numbers"><span class="carousel-numbers__current-number">01</span><span class="carousel-numbers__total-number">/01</span></div>
-          </div>
-        </div>
-      </section>
-      <section class="page-price-list" id="page-price-list"><a class="page-price-list__link" href="#">DOWNLOAD PRICE</a></section>
-      <section class="page-contact-us" id="page-contact-us"><a class="page-contact-us__link" href="#">CONTACT US</a></section>
-      <section class="page-search" id="page-search">
-        <form class="page-search__form">
-          <input class="page-search__input-text" type="text" placeholder="What are you looking for?"><span class="page-search__submit-wrapper fas fa-search">
-            <input class="page-search__submit" type="submit" value=""></span>
-        </form>
-      </section>
-      <section class="page-review" id="page-review">
-        <div class="review-card"><img class="review-card__img" src="img/review.png" alt="Martin H. Jhonsons">
-          <h4 class="review-card__title">Martin H. Jhonsons</h4>
-          <div class="review-card__rating"><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_empty"></span></div>
-          <p class="review-card__text">Together, we'll couple our knowledge, expertise, and innovative capabilities with your astute knowledge of your business—to maximize and optimize results. This is all accomplished in a number of ways.</p>
-        </div>
-        <div class="review-card review-card__marked"><img class="review-card__img" src="img/review.png" alt="Tony SH. Schults">
-          <h4 class="review-card__title">Tony SH. Schults</h4>
-          <div class="review-card__rating"><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span></div>
-          <p class="review-card__text"> When selecting DMCS as the design-build team, clients benefit in terms of efficiency and continuity that translate into cost savings and optimized schedules. Contact us today and see how DMCS can best serve you from concept-through-construction.</p>
-        </div>
-        <div class="review-card"><img class="review-card__img" src="img/review.png" alt="David Mc. Adams">
-          <h4 class="review-card__title">David Mc. Adams</h4>
-          <div class="review-card__rating"><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_full"></span><span class="review-card__star review-card__star_empty"></span></div>
-          <p class="review-card__text">In most urban areas, construction has already built existing structures, many having been standing for decades.</p>
-        </div>
-      </section>
-      <section class="page-news" id="page-news">
-        <h2 class="page-news__title">NEWS</h2>
-        <div class="news-carousel">
-          <div class="news-slide">
-            <div class="news-slide__date">12 February, 2018</div>
-            <h3 class="news-slide__heading"><a class="news-slide__news-link" href="#">Project Design and Engineering Services</a></h3><a class="news-slide__comments" href="#">23 comments</a>
-          </div>
-          <div class="news-slide">
-            <div class="news-slide__date">25 May, 2018</div>
-            <h3 class="news-slide__heading"><a class="news-slide__news-link" href="#"> Lorem Ipsum Dolor Sit Amet</a></h3><a class="news-slide__comments" href="#">8 comments</a>
-          </div>
-          <div class="news-slide">
-            <div class="news-slide__date">11 June, 2018</div>
-            <h3 class="news-slide__heading"><a class="news-slide__news-link" href="#"> Lorem Ipsum Dolor Sit Amet</a></h3><a class="news-slide__comments" href="#">5 comments</a>
-          </div>
-        </div>
-      </section>
-      <section class="page-about" id="page-about">
-        <h2 class="page-about__title">YOUR BUILDING IS IN GOOD HANDS</h2>
-        <p class="page-about__text">Our mission is to provide the highest level of service for our client-partners from concept through construction.</p><a class="page-about__link" href="#">ABOUT COMPANY</a>
-      </section>
-      <section class="page-stat" id="page-stat">
-        <div class="stat-card stat-card_expert">
-          <div class="stat-card__img stat-card__img_expert"></div>
-          <div class="stat-card__number">55 000</div>
-          <div class="stat-card__desc">Expert Witness</div>
-        </div>
-        <div class="stat-card stat-card_construction">
-          <div class="stat-card__img stat-card__img_construction"></div>
-          <div class="stat-card__number">124 600</div>
-          <div class="stat-card__desc">Construction</div>
-        </div>
-        <div class="stat-card stat-card_managment">
-          <div class="stat-card__img stat-card__img_managment"></div>
-          <div class="stat-card__number">78 150</div>
-          <div class="stat-card__desc">Project Managments</div>
-        </div>
-        <div class="stat-card stat-card_procurement">
-          <div class="stat-card__img stat-card__img_procurement"></div>
-          <div class="stat-card__number">18 000</div>
-          <div class="stat-card__desc">Procurement</div>
-        </div>
-      </section>
-      <section class="page-portfolio" id="page-portfolio">
-        <div class="page-portfolio__carousel">
-          <div class="portfolio-slide">
-            <div class="portfolio-slide__caption">
-              <h2 class="portfolio-slide__title">Contemporary Villa</h2>
-              <div class="portfolio-slide__desc">
-                <p class="portfolio-slide__p">Diversity is a buzzword often heard by brand managers, business tycoons, politicians, and more; but it's much more than that. To us at DM Construction, diversity is the name of the game.</p>
-                <p class="portfolio-slide__p">We offer a diverse set of skills to all clients in all fields, but also offer a diverse group of individuals who are able to deliver those skills. From Construction Managers and Project Managers, to licensed Architects and Engineers, Designers, Business Development gurus, Construction Superintendents and Construction Project Engineers, DM Construction has a strong team that is as diverse as they are skilled.</p>
-              </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
-            </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Contemporary Villa">
-          </div>
-          <div class="portfolio-slide">
-            <div class="portfolio-slide__caption">
-              <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
-              <div class="portfolio-slide__desc">
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
-              </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
-            </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
-          </div>
-          <div class="portfolio-slide">
-            <div class="portfolio-slide__caption">
-              <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
-              <div class="portfolio-slide__desc">
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
-              </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
-            </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
-          </div>
-          <div class="portfolio-slide">
-            <div class="portfolio-slide__caption">
-              <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
-              <div class="portfolio-slide__desc">
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
-              </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
-            </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
-          </div>
-          <div class="portfolio-slide">
-            <div class="portfolio-slide__caption">
-              <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
-              <div class="portfolio-slide__desc">
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
-              </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
-            </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
-          </div>
-          <div class="portfolio-slide">
-            <div class="portfolio-slide__caption">
-              <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
-              <div class="portfolio-slide__desc">
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
-              </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
-            </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
-          </div>
-          <div class="portfolio-slide">
-            <div class="portfolio-slide__caption">
-              <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
-              <div class="portfolio-slide__desc">
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
-              </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
-            </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
-          </div>
-          <div class="portfolio-slide">
-            <div class="portfolio-slide__caption">
-              <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
-              <div class="portfolio-slide__desc">
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
-              </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
-            </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
-          </div>
-          <div class="portfolio-slide">
-            <div class="portfolio-slide__caption">
-              <h2 class="portfolio-slide__title">Lorem Ipsum</h2>
-              <div class="portfolio-slide__desc">
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi repudiandae magni fugit nisi, accusamus, odit molestias eius minus tempore nihil vitae sed, laudantium inventore ab dolor maiores debitis blanditiis dignissimos amet aperiam.</p>
-                <p class="portfolio-slide__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officia repudiandae nam, alias repellat impedit reprehenderit autem rerum amet, blanditiis possimus explicabo. Facilis accusantium, nesciunt minima. Deserunt provident saepe ullam, ipsam tempore, laudantium eligendi fuga harum sed assumenda et non voluptate quo dolore nemo similique ipsum modi beatae eum facilis. Delectus sint, eius repudiandae molestias officia repellendus dolore ipsum assumenda. Atque, dolores distinctio reprehenderit!</p>
-              </div><a class="portfolio-slide__link" href="#">VIEW PROJECT</a>
-            </div><img class="portfolio-slide__img" src="img/portfolio.png" alt="Lorem Ipsum">
-          </div>
-        </div>
-        <div class="page-portfolio__controls">
-          <div class="carousel-controls">
-            <div class="carousel-numbers"><span class="carousel-numbers__current-number">01</span><span class="carousel-numbers__total-number">/01</span></div>
-          </div>
-        </div>
-      </section>
-      <section class="page-work-with-us" id="page-work-with-us"><a class="page-work-with-us__link" href="#"><span class="page-work-with-us__image"></span><span class="page-work-with-us__desc">WORK WITH US</span></a></section>
-      <section class="page-subscribe" id="page-subscribe">
-        <h2 class="page-subscribe__title">SUBSCRIBE</h2>
-        <form class="page-subscribe__form">
-          <input class="page-subscribe__field" type="email" placeholder="Email">
-          <input class="page-subscribe__submit" type="submit" value="SIGN UP">
-        </form>
-      </section>
-    </main>
-    <footer class="page-footer" id="page-footer">
-      <ul class="page-footer__list">
-        <li class="page-footer__item"><a class="page-footer__link" href="#">Services</a></li>
-        <li class="page-footer__item"><a class="page-footer__link" href="#">Our Works</a></li>
-        <li class="page-footer__item"><a class="page-footer__link" href="#">News &amp; events</a></li>
-        <li class="page-footer__item"><a class="page-footer__link" href="#">Work with us</a></li>
-        <li class="page-footer__item"><a class="page-footer__link" href="#">F.A.Q</a></li>
-        <li class="page-footer__item"><a class="page-footer__link" href="#">Contact us</a></li>
-        <li class="page-footer__item"><a class="page-footer__link" href="#">Shop</a></li>
-      </ul>
-      <div class="page-footer-copy">
-        2018 &copy; Copyright - Foundation theme by
-        <a class="page-footer-copy__link" href="#">Stylemixthemes</a>
-      </div>
-    </footer>
-    <script src="js/main.min.js"></script>
-  </body>
+        </footer>
+        <script src="js/main.min.js"></script>
+    </body>
 </html>
